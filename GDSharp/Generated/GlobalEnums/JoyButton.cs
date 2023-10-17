@@ -1,0 +1,28 @@
+namespace GDSharp {
+public enum JoyButton : long {
+	JoyButtonInvalid = -1,
+	JoyButtonA = 0,
+	JoyButtonB = 1,
+	JoyButtonX = 2,
+	JoyButtonY = 3,
+	JoyButtonBack = 4,
+	JoyButtonGuide = 5,
+	JoyButtonStart = 6,
+	JoyButtonLeftStick = 7,
+	JoyButtonRightStick = 8,
+	JoyButtonLeftShoulder = 9,
+	JoyButtonRightShoulder = 10,
+	JoyButtonDpadUp = 11,
+	JoyButtonDpadDown = 12,
+	JoyButtonDpadLeft = 13,
+	JoyButtonDpadRight = 14,
+	JoyButtonMisc1 = 15,
+	JoyButtonPaddle1 = 16,
+	JoyButtonPaddle2 = 17,
+	JoyButtonPaddle3 = 18,
+	JoyButtonPaddle4 = 19,
+	JoyButtonTouchpad = 20,
+	JoyButtonSdlMax = 21,
+	JoyButtonMax = 128,
+}
+}
